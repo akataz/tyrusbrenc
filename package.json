@@ -1,0 +1,22 @@
+{
+  "name": "tyrusbrenc",
+  "version": "1.0.0",
+  "description": "Personal Website for Tyrus Brenc",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akataz/tyrusbrenc.git"
+  },
+  "author": "Tyrus A. Brenc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akataz/tyrusbrenc/issues"
+  },
+  "homepage": "https://github.com/akataz/tyrusbrenc#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
