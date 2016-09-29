@@ -14,7 +14,8 @@ Back end
   -Node, express
 
 Database
-  -MongoDB
+  -MongoDB is probably overkill, since it's a single user application
+  -SQlite- with sequelize
 
 Splash page should contain picture of me
   -links to LinkedIn, Angellist, blog, email, cool stock background image
