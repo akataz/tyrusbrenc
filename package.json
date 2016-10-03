@@ -4,7 +4,8 @@
   "description": "Personal Website for Tyrus Brenc",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,18 @@
   },
   "homepage": "https://github.com/akataz/tyrusbrenc#readme",
   "dependencies": {
+    "babel-core": "^6.17.0",
     "express": "^4.14.0",
     "mobx": "^2.5.2",
-    "react": "^15.3.2"
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.3"
   },
   "devDependencies": {
     "babel-loader": "^6.2.5",
+    "node-sass": "^3.10.1",
     "react-hot-loader": "^3.0.0-beta.5",
     "react-router": "^2.8.1",
+    "sass-loader": "^4.0.2",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
   }
